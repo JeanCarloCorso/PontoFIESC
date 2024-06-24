@@ -1,0 +1,66 @@
+/* Estilos globais */
+
+
+
+
+/* Container */
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header .date {
+    font-size: 32px; /* Tamanho h1 */
+    font-weight: bold;
+}
+
+.header .time {
+    font-size: 24px; /* Tamanho h3 */
+    margin-top: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.records {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.records .entries, .records .exits {
+    flex: 1;
+}
+
+.records strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.entry-time, .exit-time {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #003366;
+    color: white;
+}
