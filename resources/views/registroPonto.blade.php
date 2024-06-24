@@ -5,6 +5,12 @@
 
 <link rel="stylesheet" href="{{ asset('css/registroPonto.css') }}">
 
+@if(session('mensagem'))
+    <div class="alert alert-info">
+        {{ session('mensagem') }}
+    </div>
+@endif
+
 <div class="header">
             <h1 class="date">22/06/2024</h1>
             <h3 class="time">12:03</h3>
